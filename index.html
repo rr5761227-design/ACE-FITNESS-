@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ACE-FITNESS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loading-screen">
+    <div class="loader"></div>
+  </div>
+  <div class="custom-cursor"></div>
+  <div class="cursor-follower"></div>
+  <div class="scroll-progress"><div class="scroll-progress__bar"></div></div>
+  <button class="theme-toggle" type="button" aria-label="Toggle theme">☀</button>
+  <div class="social-bar">
+    <a href="#" aria-label="Instagram">IG</a>
+    <a href="#" aria-label="YouTube">YT</a>
+    <a href="#" aria-label="Facebook">FB</a>
+  </div>
+
+  <header class="hero">
+    <video class="hero-video" src="videos/hero.mp4" autoplay muted loop playsinline></video>
+    <div class="overlay">
+            <nav class="header-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="programs.html">Programs</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="trainers.html">Trainers</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <h1>ACE-FITNESS</h1>
+      <p>Train smarter. Live stronger.</p>
+      <div class="typing-text" data-text="Premium training. Personalized support. Real results."></div>
+      <a class="cta neon-btn" href="#programs">Explore Programs</a>
+    </div>
+  </header>
+
+  <main id="programs">
+    <section class="intro">
+      <h2>Welcome</h2>
+      <p>Begin your fitness journey with ACE-FITNESS.</p>
+    </section>
+
+    <section class="motivation" id="motivation">
+      <div class="motivation-card">
+        <h2>Motivation for Today</h2>
+        <p>Every step forward is a step toward your strongest self. Stay committed, stay consistent.</p>
+        <div class="quote-grid">
+          <div class="quote-item">
+            <p>“Small progress is still progress.”</p>
+          </div>
+          <div class="quote-item">
+            <p>“Push yourself because no one else is going to do it for you.”</p>
+          </div>
+          <div class="quote-item">
+            <p>“The only bad workout is the one that didn’t happen.”</p>
+          </div>
+        </div>
+        <a class="profile-button" href="gallery.html">See Motivation Gallery</a>
+      </div>
+    </section>
+
+    <section class="stats-section">
+      <div class="stats-grid animate-fade">
+        <div class="stats-card">
+          <div class="stat-number" data-target="5000" data-suffix="+">0</div>
+          <div class="stat-label">Members</div>
+        </div>
+        <div class="stats-card">
+          <div class="stat-number" data-target="50" data-suffix="+">0</div>
+          <div class="stat-label">Trainers</div>
+        </div>
+        <div class="stats-card">
+          <div class="stat-number" data-target="15" data-suffix="+">0</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stats-card">
+          <div class="stat-number" data-target="4.6" data-decimals="1">0</div>
+          <div class="stat-label">Average Rating</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bmi-section">
+      <div class="section-title">
+        <h2>Calculate Your BMI</h2>
+        <p>Find your body mass index instantly and understand your fitness starting point.</p>
+      </div>
+      <div class="bmi-card glass-card">
+        <form class="bmi-form">
+          <label>
+            Weight (kg)
+            <input type="number" name="weight" placeholder="e.g. 68" required>
+          </label>
+          <label>
+            Height (cm)
+            <input type="number" name="height" placeholder="e.g. 172" required>
+          </label>
+          <button type="submit" class="profile-button neon-btn">Calculate BMI</button>
+        </form>
+        <div class="bmi-result">Enter your details to see your BMI.</div>
+      </div>
+    </section>
+
+    <section class="schedule-section">
+      <div class="section-title">
+        <h2>Weekly Workout Schedule</h2>
+        <p>Choose the style that fits your goals and stay on track with a planned routine.</p>
+      </div>
+      <div class="schedule-buttons">
+        <button class="schedule-button active" data-day="monday">Monday</button>
+        <button class="schedule-button" data-day="wednesday">Wednesday</button>
+        <button class="schedule-button" data-day="friday">Friday</button>
+      </div>
+      <div class="schedule-grid">
+        <article class="workout-card active" data-day="monday">
+          <h3>Strength + Core</h3>
+          <p>Barbell training, mobility drills, and core stability work.</p>
+        </article>
+        <article class="workout-card" data-day="wednesday">
+          <h3>HIIT + Conditioning</h3>
+          <p>Interval training, metabolic circuits, and active recovery.</p>
+        </article>
+        <article class="workout-card" data-day="friday">
+          <h3>Recovery & Mobility</h3>
+          <p>Stretching, foam rolling, and recovery flow for stronger next week.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="ai-coach-section">
+      <div class="section-title">
+        <h2>AI Coach</h2>
+        <p>Get intelligent training suggestions, automated progress checks, and workout tips tuned for your pace.</p>
+      </div>
+      <div class="services-grid">
+        <div class="services-card ai-card">
+          <div class="program-icon">🤖</div>
+          <h3>Smart Training</h3>
+          <p>AI builds workouts that adapt to your progress and nutrition habits.</p>
+        </div>
+        <div class="services-card ai-card">
+          <div class="program-icon">📊</div>
+          <h3>Progress Insights</h3>
+          <p>Track your gains with intelligent feedback and performance summaries.</p>
+        </div>
+        <div class="services-card ai-card">
+          <div class="program-icon">🎯</div>
+          <h3>Goal Focus</h3>
+          <p>Receive personalized targets for weight loss, strength, and recovery.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="badge-section">
+      <div class="section-title">
+        <h2>Achievement Badges</h2>
+        <p>Collect badges for consistency, strength milestones, and transformation triumphs.</p>
+      </div>
+      <div class="badge-grid">
+        <div class="badge-card">
+          <span>🏅</span>
+          <h4>Consistency Champion</h4>
+          <p>Complete 8 workouts in one month.</p>
+        </div>
+        <div class="badge-card">
+          <span>💪</span>
+          <h4>Strength Star</h4>
+          <p>Hit a new personal best in your main lifts.</p>
+        </div>
+        <div class="badge-card">
+          <span>🔥</span>
+          <h4>Transformation Hero</h4>
+          <p>Stay on track and reach a major body composition goal.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="profile-section">
+      <div class="profile-card">
+        <div class="profile-avatar"></div>
+        <div class="profile-content">
+          <h2>Meet Your Coach</h2>
+          <p>Alex is a certified trainer who blends strength, mobility, and mindset coaching for lasting results.</p>
+          <ul>
+            <li>Personalized workout plans</li>
+            <li>Nutrition support</li>
+            <li>Goal tracking and progress review</li>
+          </ul>
+          <p><strong>Phone:</strong> +91 9216485588</p>
+          <p><strong>Email:</strong> fitness09@gmail.com</p>
+          <a class="profile-button" href="gallery.html">Get Started</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+</body>
+</html>

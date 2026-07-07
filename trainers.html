@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ACE-FITNESS Trainers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loading-screen">
+    <div class="loader"></div>
+  </div>
+  <div class="custom-cursor"></div>
+  <div class="cursor-follower"></div>
+  <div class="scroll-progress"><div class="scroll-progress__bar"></div></div>
+  <button class="theme-toggle" type="button" aria-label="Toggle theme">☀</button>
+  <div class="social-bar">
+    <a href="#" aria-label="Instagram">IG</a>
+    <a href="#" aria-label="YouTube">YT</a>
+    <a href="#" aria-label="Facebook">FB</a>
+  </div>
+
+  <header class="hero trainers-hero">
+    <div class="overlay">
+            <nav class="header-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="programs.html">Programs</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="trainers.html">Trainers</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <h1>Meet the Trainers</h1>
+      <p>Expert coaches guiding every workout with accountability and care.</p>
+      <a class="cta" href="#team">Meet the Team</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro" id="team">
+      <h2>Our Coaching Team</h2>
+      <p>Each trainer brings real experience, personal attention, and strong results.</p>
+    </section>
+
+    <section class="services-section">
+      <div class="services-grid">
+        <div class="services-card">
+          <h3>Alex</h3>
+          <p>Strength and mobility specialist with a focus on long-term progress.</p>
+        </div>
+        <div class="services-card">
+          <h3>Mira</h3>
+          <p>HIIT and motivation coach who keeps training intense and fun.</p>
+        </div>
+        <div class="services-card">
+          <h3>Dev</h3>
+          <p>Nutrition and recovery advisor helping clients build habits that last.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="join-section">
+      <div class="join-card glass-card">
+        <h2>Trainer Booking Form</h2>
+        <p>Book a session with the coach that fits your goals and schedule.</p>
+        <form class="join-form" action="#" method="post">
+          <label>
+            Full Name
+            <input type="text" name="name" placeholder="Your full name" required>
+          </label>
+          <label>
+            Email Address
+            <input type="email" name="email" placeholder="you@example.com" required>
+          </label>
+          <label>
+            Preferred Trainer
+            <select name="trainer" required>
+              <option value="">Select trainer</option>
+              <option value="alex">Alex</option>
+              <option value="mira">Mira</option>
+              <option value="dev">Dev</option>
+            </select>
+          </label>
+          <label>
+            Preferred Date
+            <input type="date" name="date" required>
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4" placeholder="Tell us your goals"></textarea>
+          </label>
+          <button type="submit" class="profile-button neon-btn">Book Trainer</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="services-cta">
+      <div class="services-card services-cta-card">
+        <h2>Want a training partner?</h2>
+        <p>Our trainers are ready to help you commit and stay consistent.</p>
+        <a class="profile-button" href="contact.html">Book a Trainer</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+</body>
+</html>
